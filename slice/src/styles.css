@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 300;
+    src: url('assets/font/ProximaNova-ThinIt.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/font/ProximaNova-Reg.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/font/ProximaNova-Reg.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 600;
+    src: url('assets/font/Proxima Nova Semibold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 700;
+    src: url('assets/font/ProximaNova-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 800;
+    src: url('assets/font/ProximaNova-Extrabold.otf') format("opentype");
+}
+
+body {
+    font-family: 'ProximaNova', sans-serif;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin:0;
+    padding: 0;
+}
+
+a,p,span,button,div,table,.content,.toolbar{
+    font-family: 'ProximaNova', sans-serif;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'ProximaNova', sans-serif;
+}
+
+.image-wrapper{
+    width: 100%;
+    height: 100%;
+
+}
